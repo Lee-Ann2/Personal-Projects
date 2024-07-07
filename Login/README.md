@@ -1,0 +1,1 @@
+It is the beginning of my first personal project. I t is nothing major. I don't have an idea of whata it may be yet. I hope it gets better as time progrsses.
