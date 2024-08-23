@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+</head>
+<body>
+    <form action="" id="signup-form">
+        <div class="container">
+            <div class="intro">
+                <header>Sign up</header>
+            </div>
+            <div class="box-container">
+                <label for="name">First Name*</label>
+                <input type="text" class="box" id="name" required maxlength="60" placeholder="Bob" autocomplete="name">
+                <span id="nameError"></span>
+                <label for="lastname">Last Name*</label>
+                <input type="text" class="box" id="lastname" required maxlength="60" placeholder="Smith" autocomplete="family-name">
+                <span id="lastError"></span>
+            </div>
+            <div class="info">
+                <label for="date">Date of birth*</label>
+                <input type="date" class="box" id="date" required >
+                <span id="dateError"></span>
+                <label for="status">Mr</label>
+                <input type="radio" class="box" name="status" required>
+                <label for="status">Mrs</label>
+                <input type="radio" class="box" name="status" required>
+                <label for="status">Miss</label>
+                <input type="radio" class="box" name="status" required>
+                <label for="status">Dr</label>
+                <input type="radio" class="box" name="status" required>
+                <label for="sex">Male</label>
+                <input type="checkbox" class="box" name="sex">
+                <label for="sex">Female</label>
+                <input type="checkbox" class="box" name="sex">
+            </div>
+            <div class="verify">
+                <label for="email">Email*</label>
+                <input type="email" class="box" id="email" required autocomplete="email">
+                <span id="emailError"></span>
+                <label for="password">Password</label>
+                <input type="password" class="box" id="password" minlength="8">
+                <span id="passwordError"></span>
+            </div>
+            <input type="submit" id="btn">
+        </div>
+    </form>
+</body>
+</html>
