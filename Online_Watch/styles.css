@@ -158,5 +158,25 @@ a:hover {
     column-gap: 100px;
     justify-content: space-between;
 }
+ /* the table section*/
 
-
+ .second-sector {
+    margin: 50px;
+    margin-left: -3px;
+    border-radius: 15px;
+    width: 1050px;
+    background-color: #111111;
+ }
+.library {
+    margin: 20px;
+    margin-top: 10px;
+    font-size: 2em;
+    font-family: montserrat;
+    font-weight: 500;
+    color: #ffffff;
+}
+.slab  {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
