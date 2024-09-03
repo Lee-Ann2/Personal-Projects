@@ -175,8 +175,7 @@ a:hover {
     font-weight: 500;
     color: #ffffff;
 }
-.slab  {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+.the-table {
+    display: inline-table;
+    
 }
