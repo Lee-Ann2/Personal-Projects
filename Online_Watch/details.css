@@ -15,7 +15,46 @@
     border-radius: 2em;
 }
 .small-container {
-    background-color: #333333;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 1em;
+}
+.pic1 {
+    transform: scale(0.1);
+    margin-top: -1000px;
+    margin-left: -750px;
+    border-radius: 5em;
+}
+.pic2 {
+    transform: scale(0.5);
+    margin-top: -1450px;
+    margin-left: 300px;
+}
+.z-icon {
+    margin-top: -430px;
+    margin-left: 700px;
+    padding: 10px;
+    padding-left: 15px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    width: 55px;
+    border-radius: 6em;
+    text-align: center;
+}
+.arcane-header {
+    margin-top: 150px;
+    text-align: center;
+    font-family: poppins, roboto, montserrat;
+    font-size: 42px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.arcane-details {
+    background-color: #111111;
     margin: 20px;
     padding: 20px;
+    border-radius: 1em;
 }
+
