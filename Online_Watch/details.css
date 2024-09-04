@@ -57,4 +57,33 @@
     padding: 20px;
     border-radius: 1em;
 }
+.pack {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+.sub-packs {
+    background-color: #222222;
+    border-radius: 1.5em;
+}
+.sandbox {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 3fr 1fr;
+}
+.subsandbox {
+    margin: 20px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: roboto, poppins, montserrat;
+    font-weight: 600;
+    color: #ffffff;
+}
+.subssands {
+    margin: 20px;
+    padding: 10px;
+}
+
 
