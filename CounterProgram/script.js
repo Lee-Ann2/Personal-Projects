@@ -1,7 +1,7 @@
 const add = document.getElementById('increase');
 const minus = document.getElementById('decrease');
 const reset = document.getElementById('reset');
-const counter = document.getElementById('counter')
+const counter = document.getElementById('counter');
 
 let count = 0;
 
