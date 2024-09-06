@@ -5,9 +5,44 @@
     box-sizing: 0;
     border: 0;
 }
-
+body {
+    background-color: rgb(243, 238, 238);
+}
+h1 {
+    text-align: center;
+    text-decoration: 2px underline;
+    font-size: 2.2em;
+    font-family: manrope;
+    font-weight: 200;
+    margin-top: 20px;
+}
 .card {
-    margin: 50%;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+    max-width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 5px 5px 10px rgb(194, 191, 191);
+}
+p {
+    font-size: 4em;
+    font-family: roboto;
+    font-weight: 300;
+}
+button {
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 2em;
+    border-color: rgb(209, 80, 160);
+    background-color: rgb(209, 80, 160);
+    cursor: pointer;
+    box-shadow: 3px 3px 6px rgb(202, 62, 149);
+    font-family: montserrat;
+    font-weight: 300;
+}
+button:hover {
+    background-color: rgb(202, 62, 149);
+    color: #ffffff;
+    font-size: 0.8em;
+    font-weight: 500;
 }
