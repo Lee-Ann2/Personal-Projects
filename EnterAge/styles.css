@@ -1,0 +1,27 @@
+body {
+    margin-top: 20%;
+    text-align: center;
+}
+#myAge {
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+#myText {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 2px solid #f37df3;
+    border-radius: 0.5em;
+}
+#btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 2.5em;
+    color: #ffffff;
+    border: 2px solid #f74361;
+    background-color: #f74361;
+    box-shadow: 3px 3px 7px 2px #f37df3;
+}
+#btn:hover {
+    background-color: #f37df3;
+}
