@@ -3,35 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://api.fontshare.com/v2/css?f[]=pencerio@50&f[]=chillax@400&f[]=melodrama@400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>Cats Web</title>
 </head>
 <body>
     <h1>Cat Photo App</h1>
     <h2>Cat Photos</h2>
-    <p>See more <a href="#"> cat photos</a> in our gallery.</p>
-    <img src="relaxing-cat.jpg" alt="picture of a cat">
-    <h3>Cat Lists</h3>
-    <h4>Things cats love:</h4>
-    <ul>
-        <li>Cat nip</li>
-        <li>laser pointers</li>
-        <li>lasagna</li>
-    </ul>
-    <p>
-        <img src="lasagna.jpg" alt="lasgna"><br>
-        Cats <i>love</i> lasagna
-    </p>
-    <h4>Top 3 things cats hate:</h4>
-    <ol>
-        <li>flea treatment</li>
-        <li>thunder</li>
-        <li>other cats</li>
-    </ol>
-    <p>
-        <img src="running-cats.jpg" alt="another cats"><br>
-        cats <strong>hate</strong> other cats
-    </p>
+    <div class="box">
+        <div class="diva">
+            <div class="div1">
+                <img src="relaxing-cat.jpg" alt="picture of a cat">
+                <h4 class="name">Name: Leo</h4>
+                <p class="para1">Breed: Just Orange</p>
+                <p class="para2">Lazy</p>
+            </div>
+            <div class="div1">
+                <img src="relaxing-cat.jpg" alt="picture of a cat">
+                <h4 class="name">Name: Garfield</h4>
+                <p class="para1">Breed:Orange</p>
+                <p class="para2">Loving</p>
+            </div>
+            <div class="div1">
+                <img src="relaxing-cat.jpg" alt="picture of a cat">
+                <h4 class="name">Name: Mimi</h4>
+                <p class="para1">Breed:???</p>
+                <p class="para2">Relaxing</p>
+            </div>
+        </div>
+        <p class="see">See more <a href="#"> cat photos</a> in our gallery.</p>
+    </div>
+    <div class="part-two">
+        <h3>Cat Lists</h3>
+        <h4>Things cats love:</h4>
+        <ul>
+            <li>Cat nip</li>
+            <li>laser pointers</li>
+            <li>lasagna</li>
+        </ul>
+        <p>
+            <img src="lasagna.jpg" alt="lasgna"><br>
+            Cats <i>love</i> lasagna
+        </p>
+        <h4>Top 3 things cats hate:</h4>
+        <ol>
+            <li>flea treatment</li>
+            <li>thunder</li>
+            <li>other cats</li>
+        </ol>
+        <p>
+            <img src="running-cats.jpg" alt="another cats"><br>
+            cats <strong>hate</strong> other cats
+        </p>
+    </div>
     <h2>Cat Form</h2>
     <fieldset>
         <legend>Is your cat an indoor or outdoor cat?</legend>
@@ -49,6 +73,8 @@
         <input type="checkbox" id="check3">
         <label for="check3" id="check3">Energetic</label>
     </fieldset>
+    <input type="url" placeholder="cat photo URL">
+    <button>Submit</button>
     <footer><p>&copy;<small>No copyright</small></p></footer>
 </body>
 </html>
