@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: 0;
-    border: 0;
 }
 body {
     background-color: #c96868;
@@ -75,8 +74,7 @@ h2 {
     margin: 80px;
     border-radius: 15px;
     display: grid;
-    grid-template-columns: 4fr 1fr;
-    grid-template-rows: 1fr 0.5fr;
+    grid-template-columns: 3;
     gap: 70px;
 }
 h3 {
@@ -107,4 +105,102 @@ li {
 }
 .list {
     font-size: 1.5em;
+}
+span {
+    font-size: 2em;
+    font-family: 'Melodrama', serif;
+    font-weight: 500;
+    color: #7EACB5;
+}
+i {
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+i:hover {
+    font-size: 1em;
+    cursor: pointer;
+    color: #c96868;
+}
+.dislikes {
+    margin-top: 20px;
+    padding: 40px;
+    border: 1px solid #fff4ea;
+    border-radius: 30px;
+}
+.dislikes:hover {
+    border: 3px solid #fff4ea;
+    margin-top: -5px;
+}
+h6 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 10px;
+    font-size: 4em;
+    font-family: 'Chillax', sans-serif;
+    color: #FADFA1;
+}
+.form {
+    background-color: #c96868;
+    border: 2px solid rgb(180, 90, 90);
+    width: 700px;
+    justify-items: center;
+    margin: auto;
+    padding: 50px;
+    box-shadow: 2px 2px 11px 3px rgb(174, 84, 84);
+}
+#fieldset {
+    margin: 10px;
+    padding: 10px;
+}
+fieldset {
+    border: 3px solid #fff4ea;
+    padding: 20px;
+}
+legend {
+    font-size: 1.1em;
+    font-family: 'Chillax', sans-serif;
+}
+legend:hover {
+    border: 2px solid #fff4ea;
+    border-radius: 30px;
+    background-color: rgb(255, 226, 166);
+    opacity: 0.9;
+    box-shadow: 3px 3px 17px 6px #fff4ea;
+}
+label {
+    font-size: 0.9em;
+    word-spacing: 10px;
+    font-family: 'Chillax', sans-serif;
+}
+.btn {
+    display: flex;
+    flex-direction: column;
+}
+#input{
+    margin-left: 20px;
+}
+#copy {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.submit {
+    text-align: center;
+    margin: auto;
+}
+#submit {
+    margin-top: 50px;
+    padding: 20px;
+    width: 200px;
+    background-color: #7EACB5;
+    border: 3px solid #7EACB5;
+    border-radius: 40px;
+    font-size: 1em;
+    font-family: 'Chillax', sans-serif;
+}
+#submit:hover {
+    background-color: rgb(133, 179, 188);
+    opacity: 0.9;
+    box-shadow: 1px 1px 9px 3px rgb(123, 168, 179);
+    font-size: 1.2em;
 }
