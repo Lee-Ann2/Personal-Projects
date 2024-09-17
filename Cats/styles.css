@@ -74,13 +74,14 @@ h2 {
     margin: 80px;
     border-radius: 15px;
     display: grid;
-    grid-template-columns: 3;
+    grid-template-columns: 2fr 1fr;
     gap: 70px;
 }
 h3 {
     text-align: center;
     font-size: 3.5em;
     font-family: 'Melodrama', serif;
+    color: #7EACB5;
 }
 li {
     list-style: none;
@@ -88,11 +89,16 @@ li {
 .likes {
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
+    margin-top: 100px;
     padding: 20px;
-    border: 1px solid #fff4ea;
+    border: 2px solid rgb(255, 230, 172);
     border-radius: 30px;
     height: 300px;
+}
+.likes:hover {
+    border: 3px solid rgb(255, 228, 166);
+    border-radius: 30px;
+    box-shadow: 3px 3px 17px 2px rgb(255, 225, 168);
 }
 .likes-image {
     flex: 2;
@@ -124,12 +130,33 @@ i:hover {
 .dislikes {
     margin-top: 20px;
     padding: 40px;
-    border: 1px solid #fff4ea;
+    border: 2px solid rgb(255, 230, 172);
     border-radius: 30px;
 }
 .dislikes:hover {
-    border: 3px solid #fff4ea;
-    margin-top: -5px;
+    border: 3px solid rgb(255, 228, 166);
+    box-shadow: 3px 3px 15px 2px rgb(255, 225, 168);
+}
+.hate {
+    margin-top: 20px;
+    font-size: 2em;
+    font-family: 'Melodrama', serif;
+    font-weight: 700;
+    color: #7EACB5;
+}
+.order li {
+    color: #7EACB5;
+    margin-top: 20px;
+    list-style: number;
+}
+.cats {
+    font-size: 1.5em;
+    font-family: 'Melodrama', serif;
+    font-weight: 800;
+    color: #7EACB5;
+}
+strong {
+    font-family: 'pencerio', cursive;
 }
 h6 {
     text-align: center;
@@ -203,4 +230,7 @@ label {
     opacity: 0.9;
     box-shadow: 1px 1px 9px 3px rgb(123, 168, 179);
     font-size: 1.2em;
+}
+@media screen (max-width: 860px) {
+    
 }
