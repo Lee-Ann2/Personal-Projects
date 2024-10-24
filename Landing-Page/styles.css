@@ -59,7 +59,51 @@ h1 {
     width: 150px;
     padding: 10px;
     font-size: 18px;
+    font-weight: 600;
     border-radius: 0.6rem;
     background: #3882F6;
     color: #F9F8F8;
+    margin-bottom: 100px;
+}
+h2 {
+    margin: 20px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.row {
+    margin: auto;
+    padding: -100px;
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+}
+.div1, .div2, .div3, .div4 {
+    text-align: center;
+    padding: -20px;
+}
+.div1 img, .div2 img, .div3 img, .div4 img {
+    border-radius: 0.8rem;
+}
+.summary {
+    color: grey;
+    font-weight: 400;
+}
+.containerThree {
+    background: #E5E7EB;
+    height: 350px;
+}
+.note {
+    margin: 50px;
+    padding: 100px 200px;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+}
+span {
+    font-size: 24px;
+    font-weight: 900;
+    font-style: normal;
 }
