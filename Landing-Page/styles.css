@@ -107,3 +107,45 @@ span {
     font-weight: 900;
     font-style: normal;
 }
+.containerFour {
+    background: #3882F6;
+    width: 900px;
+    border-radius: .5rem;
+    margin: 50px;
+    margin-left: 200px;
+}
+.signin {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 200px;
+}
+h3 {
+    font-size: 24px;
+    font-weight: 900;
+    color: #fff;
+}
+.text {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 300;
+}
+.btn {
+    padding: 10px 35px;
+    background: #3882F6;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid #fff;
+    border-radius: .5rem;
+    color: #fff;
+}
+footer {
+    text-align: center;
+    padding: 50px;
+}
+footer p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+}
